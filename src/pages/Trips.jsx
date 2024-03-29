@@ -35,6 +35,7 @@ function Trips() {
             className="card relative flex-shrink-0 sm:w-[350px] sm:h-[450px] w-[250px] h-[350px] "
           >
             <img
+              loading="lazy"
               src={card.cardImg}
               alt={card.cardTitle}
               className="w-full h-[100%]"
