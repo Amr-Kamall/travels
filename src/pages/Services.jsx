@@ -48,7 +48,7 @@ function Services() {
             <img
               src={service.servicesImg}
               className="sm:w-[50%] w-[130px] m-auto"
-              alt="ddd"
+              alt={service.servicesTitle}
             />
             <h3 className="sm:text-2xl text-xl font-semibold ">
               {service.servicesTitle}
