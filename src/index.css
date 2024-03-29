@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.footer-container {
+  grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 915px) {
+  .footer-container {
+    grid-template-columns: 2fr repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 584px) {
+  .footer-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
