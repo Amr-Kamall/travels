@@ -52,9 +52,9 @@ function Footer() {
         </div>
         {footerDetails.map((footerDetail) => (
           <div className="gap-6 flex flex-col " key={footerDetail.footerTitle}>
-            <h3 className="text-xl font-semibold relative rounded-full text-[#FFF9EA]  ">
+            <h1 className="text-xl font-semibold relative rounded-full text-[#FFF9EA]  ">
               {footerDetail.footerTitle}
-            </h3>
+            </h1>
             <div className="list flex flex-col gap-4">
               <span className="text-[#797979] text-sm sm:text-[auto] ">
                 {footerDetail.footerInfo1}
