@@ -41,7 +41,7 @@ function Trips() {
               className="w-full h-[100%]"
             />
             <div className="card-text bg-white absolute bottom-5 left-7 rounded-xl py-2 px-4  w-[80%] m-auto  ">
-              <h1 className="font-bold sm:text-xl mb-1">{card.cardTitle}</h3>
+              <h1 className="font-bold sm:text-xl mb-1">{card.cardTitle}</h1>
               <p className="text-[#A5A5A5] text-sm font-semibold ">
                 {card.cardCost}
               </p>
