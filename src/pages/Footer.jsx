@@ -76,7 +76,7 @@ function Footer() {
         ))}
       </div>
       <div className="footer-copy mt-8 flex flex-wrap items-center gap-5 justify-between">
-        <p className="text-[#797979]">
+        <p className="text-[#464545]">
           جميع الحقوق محفوظة للموقع{" "}
           <span className="text-[#FEC430]"> عمرو كمال &copy;2024 </span>
         </p>
