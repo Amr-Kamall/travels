@@ -72,7 +72,7 @@ function Slide({ isOpenedMenu }) {
 
         <div className="flex items-center flex-col gap-7 ">
           <p className="mt-10 text-xl">تابع للأسفل</p>
-          <a href="#الأسعار">
+          <a href="#الأسعار" aria-label="Read more about mouse down">
             <div className=" cursor-pointer mouse bg-white h-11 flex justify-center items-start  w-7 rounded-full ">
               <span className="text-black h-3 w-1 mt-2 rounded-md bg-black"></span>
             </div>
