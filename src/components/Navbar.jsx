@@ -42,7 +42,7 @@ export default function Example({ setIsOpenedMenu, isOpenedMenu }) {
                 </Disclosure.Button>
               </div>
               <div className="tablet:flex flex-shrink-0 gap-2 items-center hidden">
-                <div class="text-2xl mt-1  bg-red rounded-full h-5 w-8 bg-white  flex justify-center items-center ">
+                <div className="text-2xl mt-1  bg-red rounded-full h-5 w-8 bg-white  flex justify-center items-center ">
                   <span
                     className="w-2 bg-black h-2"
                     style={{

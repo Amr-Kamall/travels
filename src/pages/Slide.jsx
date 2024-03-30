@@ -1,5 +1,4 @@
 function Slide({ isOpenedMenu }) {
-  console.log(isOpenedMenu);
   return (
     <section className=" h-[70vh] ">
       <div className="slide-text  text-center text-white mt-[120px] gap-8  flex justify-center items-center flex-col ">
@@ -40,9 +39,9 @@ function Slide({ isOpenedMenu }) {
               width="130.945"
               height="163.392"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              // color-interpolation-filters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              {/* <feFlood flood-opacity="0" result="BackgroundImageFix" /> */}
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"

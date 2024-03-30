@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Slide from "./pages/Slide";
 import Trips from "./pages/Trips";
@@ -10,10 +10,7 @@ import Footer from "./pages/Footer";
 
 function App() {
   const [isOpenedMenu, setIsOpenedMenu] = useState(false);
-  useEffect(() => {
-    const img = new Image();
-    img.src = "/vintage.jpg";
-  }, []);
+
   return (
     <>
       <div className="min-h-[100vh]  bg-vintage bg-no-repeat bg-cover bg-bottom">
