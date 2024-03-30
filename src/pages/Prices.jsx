@@ -55,9 +55,9 @@ function Prices() {
                   {card.cardPrice}
                 </b>{" "}
                 <span className="sm:text-lg font-semibold">/ للشخص</span>
-                <h3 className="sm:text-xl text-xl font-bold mb-2 ">
+                <p className="sm:text-xl text-xl font-bold mb-2 ">
                   {card.cardStrategy}
-                </h3>
+                </p>
                 <p
                   className={`sm:text-sm text-xs  font-[400] my-4 pb-5  border-b  ${
                     card.primary ? "border-[#A5A5A5]" : "border-[#4C4C4C]"
